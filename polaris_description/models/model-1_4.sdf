@@ -38,6 +38,22 @@
           </script>
         </material>
       </visual>
+    	<visual name="marker">
+    	 <pose>-0.9 0.0 1.0 0.0 0.0 0.0</pose> 
+         <geometry>
+          <box>
+            <size>0.265 0.265 0.001</size>
+            <!-- SIZE OF THE MARKER + MARGIN -->
+          </box>
+        </geometry>
+        <material>
+          <script>
+	    <uri>model://materials/scripts</uri>
+	    <uri>model://materials/textures</uri>
+            <name>Aruco/marker_35</name>
+          </script>
+        </material>
+      </visual>
 
       <collision name="chassis_bottom">
         <pose>0.1 0.0 0.37  0 0 0</pose> 

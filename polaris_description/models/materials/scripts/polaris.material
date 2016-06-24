@@ -49,3 +49,17 @@ material FNR_switch_R
     }
   }
 }
+material Aruco/marker_35
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture aruco_35.jpg
+			}
+		}
+	}
+}
+
