@@ -1452,7 +1452,7 @@
       <robotBaseFrame>base_link</robotBaseFrame>      
       <driveTorque>200</driveTorque>
       <steerTorque>200</steerTorque>
-      <commandTopic>cmd_vel</commandTopic>ssssss      
+      <commandTopic>cmd_vel</commandTopic>      
       <broadcastTF>1</broadcastTF>
   </plugin>
 
