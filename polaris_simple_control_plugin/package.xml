@@ -23,8 +23,7 @@
   <build_depend>urdf</build_depend>
   <build_depend>tf</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
-  <build_depend>driver_base</build_depend>
-
+ 
   <!-- Dependencies needed after this package is compiled. -->
   <run_depend>roscpp</run_depend>
   <run_depend>gazebo_ros</run_depend>
@@ -36,5 +35,4 @@
   <run_depend>urdf</run_depend>
   <run_depend>tf</run_depend>
   <run_depend>dynamic_reconfigure</run_depend>
-  <run_depend>driver_base</run_depend>
-</package>
+ </package>

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(polaris_simple_control_plugin)
 
-find_package(catkin REQUIRED COMPONENTS roscpp rospy angles std_srvs geometry_msgs sensor_msgs nav_msgs urdf tf dynamic_reconfigure driver_base)
+find_package(catkin REQUIRED COMPONENTS roscpp rospy angles std_srvs geometry_msgs sensor_msgs nav_msgs urdf tf dynamic_reconfigure)
 include_directories(include ${catkin_INCLUDE_DIRS})
 
 find_package(gazebo REQUIRED)
